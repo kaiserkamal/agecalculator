@@ -7,7 +7,7 @@ function age(){
   var dateofbirth = prompt("Enter your year of Birth");
   var todaydate = prompt("Enter current year");
   var currentage = todaydate-dateofbirth;
-document.write( "  Hey!!!!  " + n + "  your current age  "  +  currentage );
+alert( "  Hey!!!!  " + n + "  your current age  "  +  currentage );
   }
   hello(n);
   age();
